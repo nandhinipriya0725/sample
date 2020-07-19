@@ -7,17 +7,16 @@ public class Simple {
 		System.out.println("Hi");
 	}
 
-	public int add(int a,int b) {
+	public void add() {
 
-		int c=a+b;
-		return c;
-	}
+		System.out.println(10);
+			}
 
 	public static void main(String[] args) {
 		System.out.println("HelloWorld");
 		Simple s=new Simple();
 		s.printStmt();
-		System.out.println(s.add(5,10));
+		s.add();
 	}
 
 }
